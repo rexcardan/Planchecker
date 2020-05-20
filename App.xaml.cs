@@ -15,7 +15,7 @@ using System.Windows.Controls;
 namespace Cardan.PlanChecker15
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Interaction logic for App.xaml - This is a test
     /// </summary>
     public partial class App
     {
