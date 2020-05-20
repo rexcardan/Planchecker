@@ -99,6 +99,7 @@
     <Compile Include="Overlay\SelectPatient.xaml.cs">
       <DependentUpon>SelectPatient.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\CTDateConstraint.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\PlanConstraint.cs" />
     <Compile Include="Views\MainView.xaml.cs">

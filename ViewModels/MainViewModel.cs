@@ -51,10 +51,11 @@ namespace Cardan.PlanChecker15.ViewModels
             Constraints.AddRange(new PlanConstraint[]
             {
                 new PlanConstraint(ConstraintBuilder.Build("PTV", "Max[%] <= 110")),
+                new PlanConstraint(ConstraintBuilder.Build("Breast", "Max[%] <= 107")),
                 new PlanConstraint(ConstraintBuilder.Build("Rectum", "V75Gy[%] <= 15")),
                 new PlanConstraint(ConstraintBuilder.Build("Rectum", "V65Gy[%] <= 35")),
                 new PlanConstraint(ConstraintBuilder.Build("Bladder", "V80Gy[%] <= 15")),
-               // new PlanConstraint(new CTDateConstraint())
+                new PlanConstraint(new CTDateConstraint())
             });
         }
 
